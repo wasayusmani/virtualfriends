@@ -1,0 +1,3 @@
+C:/Users/abdul.wasay/CLionProjects/virtualfriends/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/abdul.wasay/CLionProjects/virtualfriends/cmake-build-debug/CMakeFiles/virtualfriends.dir
+C:/Users/abdul.wasay/CLionProjects/virtualfriends/cmake-build-debug/CMakeFiles/edit_cache.dir

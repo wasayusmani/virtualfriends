@@ -1,0 +1,4 @@
+# ninja log v5
+1	475	6631704994080562	build.ninja	8f84b76f474a9b30
+1852	2100	6631694820880196	virtualfriends.exe	62d0b010e9523efc
+7	1852	6631694818406464	CMakeFiles/virtualfriends.dir/main.cpp.obj	38d5d4f8620dfc9e
