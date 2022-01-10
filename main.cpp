@@ -14,9 +14,8 @@ struct Person
 };
 
 int find_person(std::string name, std::vector<Person> people){
-    for (int i = 0;i<people.size();i++) {
+    for (int i = 0;i<people.size();i++)
         if (people[i].name == name){return i;}
-    }
     return -1;
 }
 void virtualFriends(std::string filename){
@@ -45,18 +44,17 @@ void virtualFriends(std::string filename){
                 people.push_back(p);
                 p1 = people.size()-1;
             }
-            else{
+            else
                 people[p1].friends.push_back(words[1]);
-            }
+
             if (p2 == -1){
                 Person p(words[1]);
                 p.friends.push_back(words[0]);
                 people.push_back(p);
                 p2 = people.size()-1;
             }
-            else{
+            else
                 people[p2].friends.push_back(words[0]);
-            }
 
             std::cout<<people[p1].friends.size() + people[p2].friends.size()<<std::endl;
         }
