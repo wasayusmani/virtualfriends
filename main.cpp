@@ -56,7 +56,7 @@ void virtualFriends(std::string filename){
             else
                 people[p2].friends.push_back(words[0]);
 
-            std::cout<<people[p1].friends.size() + people[p2].friends.size()<<std::endl;
+            std::cout<<"Total number of friends : "<<people[p1].friends.size() + people[p2].friends.size()<<std::endl;
         }
     }
     file.close();
