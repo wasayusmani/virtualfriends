@@ -60,7 +60,6 @@ void virtualFriends(std::string filename){
         }
     }
     file.close();
-
 }
 
 
